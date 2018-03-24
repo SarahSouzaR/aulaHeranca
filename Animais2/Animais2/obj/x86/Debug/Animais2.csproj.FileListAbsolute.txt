@@ -1,0 +1,8 @@
+C:\Users\Sarah\AppData\Local\Temporary Projects\Animais2\bin\Debug\Animais2.exe
+C:\Users\Sarah\AppData\Local\Temporary Projects\Animais2\bin\Debug\Animais2.pdb
+C:\Users\Sarah\AppData\Local\Temporary Projects\Animais2\obj\x86\Debug\Animais2.exe
+C:\Users\Sarah\AppData\Local\Temporary Projects\Animais2\obj\x86\Debug\Animais2.pdb
+F:\Etec II - 2 SEM\DS I\Animais2\Animais2\obj\x86\Debug\Animais2.exe
+F:\Etec II - 2 SEM\DS I\Animais2\Animais2\obj\x86\Debug\Animais2.pdb
+F:\Etec II - 2 SEM\DS I\Animais2\Animais2\bin\Debug\Animais2.exe
+F:\Etec II - 2 SEM\DS I\Animais2\Animais2\bin\Debug\Animais2.pdb
