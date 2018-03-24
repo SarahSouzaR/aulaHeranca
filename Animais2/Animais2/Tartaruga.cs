@@ -9,7 +9,7 @@ namespace Animais2
     {
         public override string locomover()
         {
-            return "Este animal anda lentamente.";
+            return "Este animal anda lentamente. ";
         }
 
     }

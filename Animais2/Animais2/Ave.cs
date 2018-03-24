@@ -11,7 +11,7 @@ namespace Animais2
 
         public string fazerNinho()
         {
-            return "Geralmente ele constrói o seu ninho.";
+            return "Geralmente ele constrói o seu ninho. ";
         }
 
         public string getCorPena()
@@ -24,5 +24,9 @@ namespace Animais2
             this.corPena = corPena;
         }
 
+        public override string descricao()
+        {
+            return "Peso: " + peso + ", idade: " + idade + ", quantidade de pés: " + membros + ", cor da pena: " + corPena + ". \n";
+        }
     }
 }

@@ -9,14 +9,17 @@ namespace Animais2
     {
         public string enterrarOsso()
         {
-            return "Esse animal gosta de brincar e enterrar coisas, assim como o seu osso.";
+            return "Esse animal gosta de brincar e enterrar coisas, assim como o seu osso. ";
         }
 
         public string abanarRabo()
         {
-            return "Quando feliz ele abana o seu rabo.";
+            return "Quando feliz ele abana o seu rabo. ";
         }
 
-
+        public override string emitirSom()
+        {
+            return " Ele late. \n \n";
+        }
     }
 }

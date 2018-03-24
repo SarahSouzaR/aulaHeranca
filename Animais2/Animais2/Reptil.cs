@@ -7,7 +7,7 @@ namespace Animais2
 {
     class Reptil : Animal
     {
-        private string corEscama;
+        public string corEscama;
 
         public string getCorEscama()
         {
@@ -19,5 +19,9 @@ namespace Animais2
             this.corEscama = corEscama;
         }
 
+        public override string descricao()
+        {
+            return "Peso: " + peso + ", idade: " + idade + ", quantidade de patas: " + membros + ", cor da escama: " + corEscama + ". \n";
+        }
     }
 }

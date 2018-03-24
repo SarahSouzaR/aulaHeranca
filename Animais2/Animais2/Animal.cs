@@ -7,23 +7,23 @@ namespace Animais2
 {
     class Animal
     {
-        private float peso;
-        private int idade;
-        private int membros;
+        public float peso;
+        public int idade;
+        public int membros;
 
         public virtual string locomover() 
         {
-            return "Este animal se locomove,";
+            return " se locomovem,";
         }
 
         public string alimentar()
         {
-           return " se alimenta";
+           return " se alimentam";
         }
 
-        public string emitirSom()
+        public virtual string emitirSom()
         {
-            return " e emite som.";
+            return " e emitem som. \n \n";
         }
 
         public float getPeso()
@@ -56,5 +56,14 @@ namespace Animais2
             this.membros = membros;
         }
 
+        public virtual string descricao()
+        {
+            return "Peso: " + peso + ", idade: " + idade + ", quantidade de membros: " + membros + ". \n";
+        }
+
+        public string intro()
+        {
+            return "Todos os animais ";
+        }
     }
 }

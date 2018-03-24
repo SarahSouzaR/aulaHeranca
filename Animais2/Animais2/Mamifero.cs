@@ -7,8 +7,8 @@ namespace Animais2
 {
     class Mamifero : Animal
     {
-        private string corPelo;
-        private string raca;
+        public string corPelo;
+        public string raca;
 
         public string getCorPelo()
         {
@@ -28,6 +28,11 @@ namespace Animais2
         public void setRaca(string raca)
         {
             this.raca = raca;
+        }
+
+        public override string descricao()
+        {
+            return "Peso: " + peso + ", idade: " + idade + ", quantidade de patas: " + membros + ", cor do pelo: " + corPelo + ", raça: " + raca + ". \n";
         }
     }
 }

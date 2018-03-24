@@ -9,12 +9,17 @@ namespace Animais2
     {
         public string usarBolsa()
         {
-            return "Este animal possui uma bolsa em que seus filhotes se alocam lá durante um período.";
+            return " Ele possui uma bolsa em que seus filhotes se alocam durante um período. ";
         }
 
         public override string locomover()
         {
             return "Este animal anda, podendo dar saltos bem altos.";
+        }
+
+        public override string descricao()
+        {
+            return "Peso: " + peso + ", idade: " + idade + ", quantidade de patas: " + membros + ", cor do pelo: " + corPelo + ". \n";
         }
     }
 }
