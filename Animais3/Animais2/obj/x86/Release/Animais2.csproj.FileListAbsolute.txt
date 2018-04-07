@@ -1,0 +1,4 @@
+F:\Etec II - 2 SEM\DS I\Animais2\Animais2\bin\Release\Animais2.exe
+F:\Etec II - 2 SEM\DS I\Animais2\Animais2\bin\Release\Animais2.pdb
+F:\Etec II - 2 SEM\DS I\Animais2\Animais2\obj\x86\Release\Animais2.exe
+F:\Etec II - 2 SEM\DS I\Animais2\Animais2\obj\x86\Release\Animais2.pdb
